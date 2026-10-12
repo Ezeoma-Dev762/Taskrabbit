@@ -11,7 +11,7 @@ function BorderRoundFull({
 }: BorderRoundFullProps) {
   return (
     <div
-      className={`${styles ?? ""} w-fit px-4 py-[2px] rounded-full mb-0 truncate`}
+      className={`${styles ?? ""} w-fit px-4 py-0.5 rounded-full mb-0 truncate`}
     >
       {children}
     </div>

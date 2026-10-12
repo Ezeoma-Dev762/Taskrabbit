@@ -15,12 +15,12 @@ function AllowedPriviledgeBox({
 }: BorderRoundFullProps) {
   return (
     <div
-      className="w-full bg-white rounded-sm mb-0 flex justify-center items-center p-2.5"
+      className="w-full bg-white rounded-sm mb-0 flex justify-center items-center p-3"
     >
       <div className="flex flex-row w-11/12">
         <div className="w-1/12 mr-5 flex justify-center">
           <div
-            className={`${color ?? ""} p-1 h-1/2 rounded-lg flex w-full items-center`}
+            className={`${color ?? ""} w-7 h-7 rounded-full flex justify-center items-center`}
           >
             {iconLocation}
           </div>
